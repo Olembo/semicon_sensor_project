@@ -30,10 +30,10 @@ semicon_sensor_project/
    git clone https://github.com/Olembo/semicon_sensor_project.git
    cd semicon_sensor_project
 
-2. Install dependencies
+2. **Install dependencies
    pip install -r requirements.txt
 
-3. Download processed data & model
+3. **Download processed data & model
 
 Processed CSVs
 Download and unzip into data/processed/ from:
