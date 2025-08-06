@@ -30,51 +30,50 @@ semicon_sensor_project/
    git clone https://github.com/Olembo/semicon_sensor_project.git
    cd semicon_sensor_project
 
-2. **Install dependencies
-   pip install -r requirements.txt
+2. **Install dependencies**
+      pip install -r requirements.txt
 
-3. **Download processed data & model
+3. **Download processed data & model**
 
-Processed CSVs
+ - Processed CSVs
 Download and unzip into data/processed/ from:
 https://your-storage.link/semicon_data_archive.zip
 
-Trained model
+- Trained model
 Download hgb_final.joblib into models/ from:
 https://your-storage.link/hgb_final.joblib
 
-Usage
-Data generation & cleaning
-(Optional) Regenerate raw data:
+**Usage**
+**Data generation & cleaning**
+- (Optional) Regenerate raw data:
+      python scripts/generate_data.py
 
-python scripts/generate_data.py
-Open and run the notebook:
+- Open and run the notebook:
+      jupyter notebook notebooks/feature_engineering.ipynb
 
-jupyter notebook notebooks/feature_engineering.ipynb
-
-Explore & visualize
-Missingness heatmap
-Feature correlation matrix
-Precision–Recall curve
+**Explore & visualize**
+- Missingness heatmap
+- Feature correlation matrix
+- Precision–Recall curve
 
 
-Modeling & evaluation
-IsolationForest baseline
-HistGradientBoostingClassifier with threshold and hyperparameter tuning
-Final model performance metrics
+**Modeling & evaluation**
+- IsolationForest baseline
+- HistGradientBoostingClassifier with threshold and hyperparameter tuning
+- Final model performance metrics
 
-Key Results
+**Key Results**
 | Experiment                            | Precision | Recall | F1-Score |
 | ------------------------------------- | :-------: | :----: | :------: |
 | IsolationForest (5% contamination)    |    0.05   |  0.05  |   0.05   |
 | HGB Classifier (prob ≥ 0.06)          |    0.29   |  0.63  |   0.40   |
 | HGB after tuning (lr=0.05, leaves=63) |    0.29   |  0.63  |   0.40   |
 
-Precision–Recall AUC: ~0.51
-Optimal rolling window size: 5 runs
+- Precision–Recall AUC: ~0.51
+- Optimal rolling window size: 5 runs
 
-Next Steps
-Define and meet stakeholder success criteria (e.g., Recall ≥ 0.80, Precision ≥ 0.50)
-Extend feature set (longer-window stats, interaction terms)
-Evaluate alternative models (e.g., LocalOutlierFactor, ensemble stacking)
-Deploy the final model in a production pipeline with monitoring
+**Next Steps**
+1. Define and meet stakeholder success criteria (e.g., Recall ≥ 0.80, Precision ≥ 0.50)
+2. Extend feature set (longer-window stats, interaction terms)
+3. Evaluate alternative models (e.g., LocalOutlierFactor, ensemble stacking)
+4. Deploy the final model in a production pipeline with monitoring
