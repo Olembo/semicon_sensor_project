@@ -41,7 +41,7 @@ https://your-storage.link/semicon_data_archive.zip
 
 - Trained model
 Download hgb_final.joblib into models/ from:
-https://your-storage.link/hgb_final.joblib
+https://your-storage.link/hgb_final.joblib](https://github.com/Olembo/semicon_sensor_project/tree/main/models)
 
 **Usage**
 **Data generation & cleaning**
