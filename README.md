@@ -3,14 +3,11 @@
 A full end-to-end pipeline to detect anomalies in semiconductor manufacturing sensor data. This project covers data cleaning, advanced feature engineering, unsupervised and supervised modeling, threshold- and hyperparameter-tuning, and rich visualizations.
 
 ---
-
+<details> <summary>Click to expand the project structure snippet</summary>
 ## Project Structure
 
 semicon_sensor_project/
 
-## Project Structure
-
-semicon_sensor_project/
 ├── data/
 │   ├── raw/                  # raw synthetic data
 │   │   └── synthetic_semicon_50k.csv
