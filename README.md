@@ -5,7 +5,7 @@ A full end-to-end pipeline to detect anomalies in semiconductor manufacturing se
 ---
 ## Project Structure
 
-```plaintext
+```
 semicon_sensor_project/
 
 ├── data/
@@ -28,8 +28,8 @@ semicon_sensor_project/
 ├── scripts/
 │   └── generate_data.py      # synthetic data generator
 ├── requirements.txt          # Python dependencies
-└── README.md                 # project overview and instructions 
-
+└── README.md                 # project overview and instructions
+```
 </details>
 
 **Key points**:
