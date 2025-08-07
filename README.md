@@ -28,8 +28,8 @@ semicon_sensor_project/
 ├── scripts/
 │   └── generate_data.py      # synthetic data generator
 ├── requirements.txt          # Python dependencies
-└── README.md                 # project overview and instructions ```plaintext
-
+└── README.md                 # project overview and instructions 
+```plaintext
 
 
 ---
