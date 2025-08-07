@@ -8,20 +8,30 @@ A full end-to-end pipeline to detect anomalies in semiconductor manufacturing se
 
 semicon_sensor_project/
 
+## Project Structure
+
+semicon_sensor_project/
 ├── data/
-│├── raw/ # raw synthetic data
-│└── processed/ # cleaned & feature CSVs (download externally)
-
-├── models/ # trained model artifact (download externally)
-
-├── notebooks/ # Jupyter workflows
-│ └── feature_engineering.ipynb
+│   ├── raw/                  # raw synthetic data
+│   │   └── synthetic_semicon_50k.csv
+│   └── processed/            # cleaned & feature CSVs
+│       ├── defects_imputed.csv
+│       ├── defects_features.csv
+│       └── with_anomalies.csv
+├── models/                   # trained model artifact
+│   └── hgb_final.joblib
+├── notebooks/                # Jupyter workflows
+│   └── feature_engineering.ipynb
 ├── outputs/
-│ └── charts/ # heatmap, corr matrix, PR curve, etc.
+│   └── charts/               # visualization outputs
+│       ├── Missingness_Heatmap.png
+│       ├── Feature_Correlation_Matrix.png
+│       ├── Anomaly_Score_Distribution.png
+│       └── Precision_Recall_Curve.png
 ├── scripts/
-│ └── generate_data.py # synthetic data generator
-├── requirements.txt # Python dependencies
-└── README.md # this file
+│   └── generate_data.py      # synthetic data generator
+├── requirements.txt          # Python dependencies
+└── README.md                 # project overview and instructions
 
 
 ---
