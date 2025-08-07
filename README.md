@@ -8,8 +8,8 @@ A full end-to-end pipeline to detect anomalies in semiconductor manufacturing se
 
 semicon_sensor_project/
 ├── data/
-│ ├── raw/ # raw synthetic data
-│ └── processed/ # cleaned & feature CSVs (download externally)
+│├── raw/ # raw synthetic data
+│└── processed/ # cleaned & feature CSVs (download externally)
 ├── models/ # trained model artifact (download externally)
 ├── notebooks/ # Jupyter workflows
 │ └── feature_engineering.ipynb
