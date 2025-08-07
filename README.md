@@ -29,7 +29,14 @@ semicon_sensor_project/
 │   └── generate_data.py      # synthetic data generator
 ├── requirements.txt          # Python dependencies
 └── README.md                 # project overview and instructions 
-```plaintext
+
+</details>
+
+**Key points**:
+- Use three backticks before and after the tree.  
+- Specify `plaintext` (or omit the language) on the opening backticks to preserve spacing.  
+- Don’t nest triple backticks inside another code block—each block must open and close on its own.
+::contentReference[oaicite:0]{index=0}
 
 
 ---
