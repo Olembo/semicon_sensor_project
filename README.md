@@ -48,7 +48,7 @@ semicon_sensor_project/
 
  - Processed CSVs
 Download and unzip into data/processed/ from:
-https://drive.google.com/drive/folders/1OZHNABG7Ew3Knhu4_7DF8zl5tBOcL8kK?usp=drive_link
+https://drive.google.com/drive/folders/1OZHNABG7Ew3Knhu4_7DF8zl5tBOcL8kK?usp=sharing
 
 - Trained model
 Download hgb_final.joblib into models/ from:
