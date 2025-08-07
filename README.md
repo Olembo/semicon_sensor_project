@@ -30,13 +30,6 @@ semicon_sensor_project/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # project overview and instructions
 ```
-</details>
-
-**Key points**:
-- Use three backticks before and after the tree.  
-- Specify `plaintext` (or omit the language) on the opening backticks to preserve spacing.  
-- Don’t nest triple backticks inside another code block—each block must open and close on its own.
-::contentReference[oaicite:0]{index=0}
 
 
 ---
@@ -55,7 +48,7 @@ semicon_sensor_project/
 
  - Processed CSVs
 Download and unzip into data/processed/ from:
-https://your-storage.link/semicon_data_archive.zip
+https://drive.google.com/drive/folders/1OZHNABG7Ew3Knhu4_7DF8zl5tBOcL8kK?usp=drive_link
 
 - Trained model
 Download hgb_final.joblib into models/ from:
